@@ -24,7 +24,7 @@ export const display = {
         } else {
             console.log('hiding main menu');
             document.getElementById('mainMenu').classList.add('hide');
-            this.touchControl(this.tactil);
+            this.touchControl(this.tactic);
         }
     },
     sidePanelInfo() {

@@ -33,5 +33,5 @@ document.getElementById('musicSwitch').addEventListener('change', function() {
     }
 });
 
-init.detectDevice() === 'mobile' ? (display.tactil = true) : (display.tactil = false);
+init.detectDevice() === 'mobile' ? (display.tactic = true) : (display.tactic = false);
 //---------------------------------------------------------
