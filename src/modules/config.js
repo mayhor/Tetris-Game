@@ -69,7 +69,7 @@ export const init = {
                 }
             },
             end() {
-                // enduro mode will continue until gameOver
+                // endurance mode will continue until gameOver
                 return false;
             },
             displayScore() {
@@ -86,6 +86,7 @@ export const init = {
                 document.getElementById('timerTitle').classList.remove('hide');
                 document.getElementById('scoreBox').classList.remove('hide');
                 document.getElementById('scoreTitle').classList.remove('hide');
+                document.getElementById('instructionBox').classList.remove('hide');
             },
             init() {
                 game.speed = this.initSpeed;
@@ -139,6 +140,7 @@ export const init = {
                 document.getElementById('timerTitle').classList.remove('hide');
                 document.getElementById('scoreBox').classList.add('hide');
                 document.getElementById('scoreTitle').classList.add('hide');
+                document.getElementById('instructionBox').classList.remove('hide');
             },
             init() {
                 game.speed = this.initSpeed;
